@@ -5,11 +5,8 @@
 
 ## Demo Video
 
-<p>A live demo of the application is available here.</p>
-<video width="320" height="240" controls loop>
-  <source src="https://files.mastodon.social/media_attachments/files/110/514/476/479/846/824/original/82428d9038e593bc.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<p>A live demo of the application is available [here](https://files.mastodon.social/media_attachments/files/110/514/476/479/846/824/original/82428d9038e593bc.mp4).</p>
+
 
 
 <p align="center">
