@@ -1,41 +1,99 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="https://files.mastodon.social/media_attachments/files/110/513/212/080/285/416/original/0e829e22dca0575e.png" alt="Project Logo" width="200">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  NewsMonkey is a web application that provides top headlines from various news sources. Users can browse news articles based on different categories and countries. The application utilizes the News API to fetch the latest news data.
+</p>
 
-## Available Scripts
+<p align="center">
+    <strong>
+        Please note that the News API developer account only works in localhost, so there is no live preview available for the NewsMonkey application. However, you can clone this repository and follow the instructions below to run the application locally.
+    </strong>
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get a taste of the NewsMonkey application, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/abhisheksurela79/NewsMonkey.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+   ```bash
+   cd newsmonkey
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Create a new file named `.env` in the project directory.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Open the `.env` file and add the following line:
 
-### `npm run eject`
+   ```bash
+   REACT_APP_NEWS_API=your_news_api_key
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    <!-- Replace your_news_api_key with your actual News API key. -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ``` bash
+        npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. Start the application:
 
+    ```bash
+    npm start
+
+
+7. Open your web browser and visit http://localhost:3000 to see the NewsMonkey application in action.
+
+
+
+## Demo Video
+
+A live demo of the application is available [here](https://text-utils-psi-swart.vercel.app/).
+
+
+<p align="center">
+  <a href="https://github.com/abhisheksurela79" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-abhisheksurela79-blue.svg?logo=github" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/abhisheksurela79" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Abhishek%20Surela-blue.svg?logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com/abhi_81718" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-abhi__81718-orange.svg?logo=instagram" alt="Instagram">
+  </a>
+  <a href="https://www.facebook.com/abhii.abhishekk" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-abhii.abhishekk-blue.svg?logo=facebook" alt="Facebook">
+  </a>
+  <a href="https://www.fiverr.com/users/toscanioliviero" target="_blank">
+    <img src="https://img.shields.io/badge/Fiverr-toscanioliviero-brightgreen.svg?logo=fiverr" alt="Fiverr">
+  </a>
+</p>
+
+
+## Features
+
+- Browse top headlines from various news sources.
+- Filter news articles by different categories and countries.
+- Pagination support to navigate through news articles.
+- Responsive design for a seamless experience on different devices.
+
+## Technologies Used
+
+- React: JavaScript library for building user interfaces.
+- News API: Provides access to a wide range of news sources and articles.
+- Bootstrap: CSS framework for responsive and mobile-first web development.
+
+
+## Contributing
+
+Contributions are welcome! ❣️
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
