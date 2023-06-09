@@ -5,7 +5,7 @@
 
 ## Demo Video
 
-<p>A live demo of the application is available [here](https://files.mastodon.social/media_attachments/files/110/514/476/479/846/824/original/82428d9038e593bc.mp4).</p>
+A live demo of the application is available [here](https://files.mastodon.social/media_attachments/files/110/514/476/479/846/824/original/82428d9038e593bc.mp4)
 
 
 
